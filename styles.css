@@ -4,23 +4,23 @@
 :root {
 
       /* Cores */
-    --neutra-cinza-escuro: #444444;
-    --neutra-cinza-medio: #B9B9B9;
-    --neutra-branco: #fff;
+    --cor-neutra-cinza-escuro: #444444;
+    --cor-neutra-cinza-medio: #B9B9B9;
+    --cor-neutra-branco: #fff;
 
-    --primaria-coral: #EE6451;
-    --primaria-ocre: #C13724;
+    --cor-primaria-coral: #EE6451;
+    --cor-primaria-ocre: #C13724;
 
-    --secundaria-bege: #FFF5EB;
-    --secundaria-bege-escuro: #F5E6D6;
+    --cor-secundaria-bege: #FFF5EB;
+    --cor-secundaria-bege-escuro: #F5E6D6;
 
-    --terciaria-verde: #CBDA74;
-    --terciaria-verde-escuro: #a2b72b;
-    --terciaria-verde-claro: #EFF2E1;
+    --cor-terciaria-verde: #CBDA74;
+    --cor-terciaria-verde-escuro: #a2b72b;
+    --cor-terciaria-verde-claro: #EFF2E1;
 
      /* Tipografia */
     --font-sigmar: "Sigmar", sans-serif;
-    --font-poppins: "Poppins", sans-serif;
+    --font-inter: "Inter", sans-serif;
 
     /* Tamanhos de fonte */
     --font-size-xxxl: 4.5rem;
@@ -59,11 +59,11 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    color: #444444;
+    color: var(--cor-neutra-cinza-escuro);
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: var(--cor-neutra-branco);
 
     .container {
         width: 1200px;

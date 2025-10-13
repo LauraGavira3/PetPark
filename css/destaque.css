@@ -16,9 +16,9 @@
     font-family: 'Sigmar';
     font-size: 4rem;
     font-weight: 400;
-    color: var(--primaria-coral);
+    color: var(--cor-primaria-coral);
 }
 
 .destaque-titulo > span {
-   color: var(--terciaria-verde-escuro) 
+   color: var(--cor-terciaria-verde-escuro) 
 }
