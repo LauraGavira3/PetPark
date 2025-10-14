@@ -3,6 +3,7 @@
 @import url(./css/servicos.css);
 @import url(./css/planos.css);
 @import url(./css/ofertas.css);
+@import url(./css/parceiros.css);
 
 :root {
 
@@ -20,6 +21,9 @@
     --cor-terciaria-verde: #CBDA74;
     --cor-terciaria-verde-escuro: #a2b72b;
     --cor-terciaria-verde-claro: #EFF2E1;
+
+    --cor-primaria-box-shadow: rgba(193, 55, 36, 0.4);
+    --cor-secundaria-box-shadow: rgba(162, 183, 43, 0.4);
 
      /* Tipografia */
     --font-sigmar: "Sigmar", sans-serif;
