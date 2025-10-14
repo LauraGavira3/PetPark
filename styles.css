@@ -1,5 +1,6 @@
 @import url(./css/cabecalho.css);
 @import url(./css/destaque.css);
+@import url(./css/servicos.css);
 
 :root {
 
@@ -55,10 +56,33 @@
     --gap-xxxl: 6rem;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-sigmar);
+    line-height: var(--line-height);
+}
 
+h1 {
+    font-size: var(--font-size-xxxl);
+}
+
+h2 {
+    font-size: var(--font-size-xxl);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+}
+
+h4 {
+    font-size: var(--font-size-l);
+}
+
+h5 {
+    font-size: var(--font-size-xm);
+}
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter);
     color: var(--cor-neutra-cinza-escuro);
     width: 100%;
     height: 100%;
