@@ -57,4 +57,5 @@
     padding: var(--padding-s) var(--padding-l);
     border-radius: 2rem;
     color: var(--cor-neutra-branco);
+    cursor: pointer;
 }
