@@ -20,3 +20,14 @@
 .destaque-titulo > span {
    color: var(--cor-terciaria-verde-escuro) 
 }
+
+@media screen and (max-width: 768px) {
+    .destaque {
+        padding: var(--padding-xxl) var(--padding-3xl);
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+}

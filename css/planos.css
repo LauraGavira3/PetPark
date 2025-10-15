@@ -59,3 +59,18 @@
     color: var(--cor-neutra-branco);
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .planos-titulo {
+        text-align: center;
+    }
+
+    .lista-planos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartao {
+        width: 50%;
+    }
+}

@@ -45,3 +45,9 @@
     box-shadow: 0 0 20px var(--cor-secundaria-box-shadow);
     border-radius: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .lista-parceiros {
+        gap: var(--gap-xxl);
+    }
+}

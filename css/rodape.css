@@ -25,3 +25,14 @@
         margin-right: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .rodape-bg {
+        flex-direction: column;
+        gap: var(--gap-m);
+    }
+
+    .icone-rodape {
+        align-items: center;
+    }
+}
